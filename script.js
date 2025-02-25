@@ -9,9 +9,11 @@ document.getElementById('form').addEventListener('submit', function(e) {
     numberB = Number(numberB);
 
     if (numberB > numberA) {
-        alert('O formulário é válido');
+        document.getElementById('form-success').style.display = 'block';
+        document.getElementById('form-error').style.display = 'none';
     }   else {
-        alert('O formulário é inválido');
+        document.getElementById('form-success').style.display = 'none';
+        document.getElementById('form-error').style.display = 'block';
     }
 });
 

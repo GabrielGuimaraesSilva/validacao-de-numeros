@@ -47,3 +47,32 @@ button:hover {
     background-color: #45a049;
     font-weight: bold;
 }
+
+p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: #969696 1px 1px 1px;
+    display: none;
+}
+
+#form-success {
+    color: #ffffff;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: #969696 1px 1px 1px;
+}
+
+#form-error {
+    color: #ffffff;
+    background-color: #f44336;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: #969696 1px 1px 1px;
+}
